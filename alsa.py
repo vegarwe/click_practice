@@ -63,7 +63,7 @@ class Application(object):
 
         if self.ready:
             cr.set_source_rgb(0.1, 0.6, 0.9)
-            cr.rectangle(20, 20, 20, 20)
+            cr.rectangle(20, 20, 40, 40)
             cr.fill()
 
         # Draw aim
